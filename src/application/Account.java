@@ -1,17 +1,11 @@
 package application;
 
 public class Account {
-
-		// Field variables
 		String _name; // represents the user name
 		double _balance;
 
-		//Methods
-
 		public Account()
 		{
-			//this._name = "Not Set";
-			//this._balance = 5.00;
 			this("Not Set",5.00);
 		}
 
@@ -40,8 +34,6 @@ public class Account {
 		{
 			return this._balance;
 		}
-
-		// setter for balance
 
 		public void setBalance(double newBalance)
 		{
