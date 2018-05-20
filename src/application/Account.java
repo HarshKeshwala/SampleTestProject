@@ -14,7 +14,6 @@ public class Account {
 			this._name = newName;
 			this._balance = newBalance;
 		}
-		//getter for name
 
 		public String getName()
 		{
